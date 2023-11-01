@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Test from './components/Text';
+import Busqueda from './components/Busqueda';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <Test />
+        <Busqueda />
       </header>
     </div>
   );
